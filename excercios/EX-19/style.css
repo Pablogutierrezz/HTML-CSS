@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{
+    background-color: #fcd9defd;
+}
+h1{
+    color: crimson;
+}
+
+#principal{
+    text-align: center;
+    color: bisque;
+    background-color: brown;
+    
+}
+
+h2{
+    color: brown;
+}
+
+p{
+    text-align: justify;
+}
