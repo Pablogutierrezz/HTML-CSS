@@ -52,3 +52,39 @@ section{
    padding: 30px;
 
 }
+
+.img1{
+    background-image: url(imagens/background001.jpg);
+    background-position: center,center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 40vh;
+    color: aliceblue;
+
+
+}
+
+.img2{
+
+    background-image: url(imagens/background002.jpg);
+    background-position: center,center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 40vh;
+    color: aliceblue;
+
+
+}
+
+footer{
+    background-color: black;
+    height: 50px;
+    color: aliceblue;
+    text-align: center;
+   
+}
+
+footer>p{
+    padding-top: 20px;
+    font-weight: bolder;
+}
