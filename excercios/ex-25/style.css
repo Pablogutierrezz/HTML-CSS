@@ -53,31 +53,28 @@ main{
 
 section{
    font-size: 30px;
-   padding: 25px;
-   margin-top: 40px;
+   padding-top: 10vh;
+   padding-bottom: 10vh;
+   padding-left: 15px;
    font-weight: bold;
+   line-height: 2em;
 
+}
+
+section >p{
+
+    padding-bottom: 2em;
 }
 
 .img1{
-    background-image: url(imagens/background001.jpg);
-    background-position: center,center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 40vh;
-    color: aliceblue;
+    display: inline-block;
+    background-color: darkgrey;
+
+
+    
 
 }
 
-.texto1{
-
-    margin-top: 55px;
-    background-color: rgba(0, 0, 0, 0.463);
-    width: 420px;
-    padding: 15px;
-    font-weight: bold;
-
-}
 
 .img2{
 
@@ -89,11 +86,7 @@ section{
     color: aliceblue;
 }
 .texto2{
-    margin-top: 55px;
-    background-color: rgba(0, 0, 0, 0.606);
-    width: 420px;
-    padding: 15px;
-
+ 
 }
 
 
