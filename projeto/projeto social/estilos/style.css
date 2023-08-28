@@ -1,4 +1,4 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
 *{
     margin: 0px;
@@ -33,3 +33,38 @@ section#telefone{
     width: 310px;
     background: url('../imagens/frame-iphone.png') no-repeat;
 }
+
+iframe#tela{ 
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 270px;
+    height: 470px;
+
+
+
+}
+
+section#redesocial img{
+
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+
+
+}
+
+section#redesocial{
+
+    text-align: right;
+}
+
+
+
+section#redesocial :hover{
+   transform: translate(-3px, 3px);
+   transition: transform 0.6s;
+
+}
+
+    
