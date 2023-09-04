@@ -14,11 +14,18 @@ img{
 
 a{
     display: block;
-    background-color: midnightblue;
+    background-color: rgb(27, 51, 169);
     padding: 20px;
     text-align: center;
     text-decoration: none;
     font-weight: bolder;
     color: aliceblue;
     
+}
+
+a:hover{
+
+    background-color: brown;
+
+
 }
