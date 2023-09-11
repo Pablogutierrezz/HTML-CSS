@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h1>formulario escolar</h1>
+    <form action="" method="get">
+        <p>
+            <label for="nome">nome</label>
+            <input type="text" required maxlength="30" placeholder="seu nome" autocomplete="name">
+        </p>
+        <p>
+            <label for="media">media escolar</label>
+            <input type="number" name="media" id="media" required min="0"  max="10" step="0.1" value="5" >
+        </p>
+
+        <p>
+            <label for="periodo">periodo letivo</label>
+            <input type="month" name="periodo" id="periodo" required >
+        </p>
+
+        <p>
+            <label for="prova">dia da prova</label>
+            <input type="date" name="prova" id="prova">
+        </p>
+
+        <p>
+            <label for="hora">horario da prova</label>
+            <input type="time" name="hora" id="hora">
+        </p>
+
+
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+
+    </form>
+
+</body>
+</html>
