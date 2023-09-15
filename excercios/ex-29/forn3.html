@@ -4,16 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+
+        .caixa1{
+
+            width: 200px;
+            background-color: darkgrey;
+            font-weight: bold;
+            margin: 10px;
+        }
+        .caixa2{
+            width: 200px;
+            background-color: darkgrey;
+            font-weight: bold;
+            margin: 10px;
+        }
+
+        legend{
+
+            text-align: center;
+            font-weight: lighter;
+            background-color: aliceblue;
+            box-shadow: 1px 1px 1px ;
+            
+        }
+
+    </style>
 </head>
 <body>
     <h1>formulario</h1>
     <form action="" method="get">
-        <fieldset>
+        <fieldset class="caixa1">
             <legend>sexo</legend>
-            <input type="radio" name="sexo" id="sexo" value="M"><label for="sexo">masculino</label>
-            <input type="radio" name="sexo" id="sexom" value="F"><label for="sexom">femenino</label>
+            <input type="radio" name="sexo" id="sexo" value="M" required><label for="sexo">masculino</label>
+            <input type="radio" name="sexo" id="sexom" value="F" required><label for="sexom">feminino</label>
         </fieldset>
-        <fieldset>
+        <fieldset class="caixa2">
             <legend>esportes favoritos</legend>
             <input type="checkbox" name="fut" id="fut"><label for="fut">futebol</label> <br>
             <input type="checkbox" name="basq" id="basq"><label for="basq">basquete</label> <br>
