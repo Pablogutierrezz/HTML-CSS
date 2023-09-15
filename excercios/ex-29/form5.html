@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>formulario</h1>
+    <form action="" method="post">
+        <p>
+            <label for="estado">estados</label>
+            <select name="estado" id="estado">
+                <option value="SP">sao paulo</option>
+                <option value="TO" selected>tocantins</option>
+                <option value="MA">maranhão</option>
+            </select>
+        </p>
+        <p>
+            <label for="prof">profisão</label>
+            <input type="text" name="prof" id="prof" list="iprof">    
+            <datalist id="iprof">
+                <option >mecanico</option>
+                <option >adimistrador</option>
+                <option >cozinheiro</option>
+
+            </datalist>
+        </p>
+
+        <p>
+            <label for="msg">mensagem</label><br>
+            <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+
+
+
+
+
+    </form>
+</body>
+</html>
