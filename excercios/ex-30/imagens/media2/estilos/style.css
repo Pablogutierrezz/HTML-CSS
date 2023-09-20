@@ -7,12 +7,17 @@
     padding: 0px;
 }
 
-body{
+html,body{
+    width: 100vw;
+    height: 100vh;
     background-color: aquamarine;
+    background-size: contain;
+    background-repeat: no-repeat;
 
 }
 
 h1{
     padding: 10px;
+    color: aliceblue;
 }
 

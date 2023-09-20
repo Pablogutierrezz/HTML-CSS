@@ -3,10 +3,15 @@
 /* aparelho em pe*/
 
 body{
-    background-color: blueviolet;
+    background-color: #233eff;
+    background-position: center bottom;
 }
 
 h1{
     text-align: center;
     color: aliceblue;
+}
+
+body{
+    background-image: url(../imagem/cev-portrait.jpg);
 }

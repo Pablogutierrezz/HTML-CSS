@@ -2,8 +2,9 @@
 /*aparelho deitado*/
 
 body{
-    background-color: blue;
-    background-image: url();
+    background-color:#233eff;
+    background-image: url(../imagem/cev-landscape.jpg);
+    background-position: left bottom;
 }
 
 h1{
