@@ -19,8 +19,22 @@ header>h1{
     padding: 10px;
 }
 
-nav{
+span#burguer{
+
+    background-color: rgb(59, 57, 57);
+    color: aliceblue;
     display: block;
+   text-align: center;
+   padding: 10px;
+}
+
+span#burguer:hover{
+    background-color: aliceblue;
+    color: rgb(42, 42, 42);
+}
+
+nav{
+    display: none;
 }
 
 ul{
@@ -50,7 +64,7 @@ main{
     width: 80vw;
     background-color: aliceblue;
     margin: auto;
-    padding: 10px;
+    padding: 10 px;
     border-radius: 10px;
     margin-top: 5px;
 }
