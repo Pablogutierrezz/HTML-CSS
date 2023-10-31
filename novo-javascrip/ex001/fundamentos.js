@@ -117,6 +117,12 @@ while (c <= 6) {
     console.log('ola')
     c++ // c++ significa que c=c+1 entao o c vai aumetar 1 a cada reptiçao
 }
+//estrutura de repetição com variavel de controle 
+//e a segunda maneira de excutar uma estrutura de repetição e o
+for( p=1 ; p<=6 ; p++ ) {
+    console.log(p)
+
+}
 
 
 //funcoes
