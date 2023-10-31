@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>paises</h1>
+    Qual e seu pais ? <input type="text" name="pais" id="pais">
+    <input type="button" value="verificar" onclick="calcular()">
+    <div id="res">
+        resultado:
+    </div>
+
+    <script>
+        function calcular(){
+            var p=document.querySelector('input#pais')
+            var res=document.querySelector('div#res')
+            var vel=(pais.value)
+            res.textContent="seu pais de origem e "+vel+""
+               
+        }
+          
+
+    </script>
+
+</body>
+</html>
