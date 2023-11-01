@@ -144,6 +144,11 @@ let res=parimp(11)
  let s=soma(10,10)
  console.log(s)
 
+ //arrow function
+
+ const testeArrow=() => console.log("isso tambem e uma função.")
+
+ testeArrow()
  
 
 
