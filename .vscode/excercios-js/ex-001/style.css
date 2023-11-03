@@ -26,3 +26,16 @@ footer{
     margin: 30px;
     color: aliceblue;
 }
+
+#msg{
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+#foto{
+    display: block;
+    margin: auto;
+    width: 300px;
+    border-radius: 200px;
+}
