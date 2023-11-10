@@ -151,4 +151,42 @@ let res=parimp(11)
  testeArrow()
  
 
+// array listas
 
+const numeros=[1,2,3,4,5]
+console.log(numeros)
+
+console.log(numeros[0])
+
+console.log(numeros[3])
+
+numeros.push(6) // push adiciona numeros na array
+
+console.log(numeros);
+
+numeros.pop() //pop tira numeros na array
+
+console.log(numeros)
+
+
+//strings
+
+const minhastrings="ola mundo"
+//isso e chamado de concatenação = +
+
+const minhastrings2 =minhastrings + " tudo bem ?"
+console.log(minhastrings2)
+
+// uma forma mais moderna de fazer concatenação e a 
+
+//interpolação
+
+const minhastrings3 =`${minhastrings} tudo bem ? `
+console.log(minhastrings3)
+
+// data e hora
+
+const agora=Date(); 
+// Date e a data atual
+
+console.log(agora);
